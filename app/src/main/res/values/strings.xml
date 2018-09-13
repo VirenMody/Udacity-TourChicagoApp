@@ -4,4 +4,18 @@
     <string name="category_museums">Museums</string>
     <string name="category_restaurants">Restaurants</string>
     <string name="category_sportarenas">Sport Arenas</string>
+    <string name="sight_milleniumpark">Millenium Park</string>
+    <string name="sight_willistower">Willis Tower and Skydeck</string>
+    <string name="sight_navypier">Navy Pier</string>
+    <string name="sight_buckinghamfountain">Buckingham Fountain</string>
+    <string name="sight_lincolnparkzoo">Lincoln Park Zoo</string>
+    <string name="sight_bahaihouseofworship">Baha\'i House of Worship</string>
+    <string name="sight_architectureboattour">Chicago Architecture Boat Tour</string>
+    <string name="sight_description_willistower">Iconic, 110-story skyscraper featuring expansive views of Chicago from its 103rd-story Skydeck.</string>
+    <string name="sight_description_navypier"><![CDATA[Former Navy training center draws crowds with carnival rides, restaurants, shops & fireworks.]]></string>
+    <string name="sight_description_lincolnparkzoo"><![CDATA[Small, free zoo with lions, primates, reptiles, a children\'s area & an interactive farm exhibit.]]></string>
+    <string name="sight_description_bahaihouseofworship">One of ten dedicated temples of the Bahá\'í Faith, it is the oldest surviving Bahá\'í House of Worship in the world.</string>
+    <string name="sight_description_buckinghamfountain"><![CDATA[Among the world’s largest, Grant Park’s 3-level rococo fountain (1927) offers light & water shows.]]></string>
+    <string name="sight_description_milleniumpark">Discover a state-of-the-art collection of architecture, landscape design and art that provide the backdrop for hundreds of free cultural programs including concerts, exhibitions, tours, and family activities.</string>
+    <string name="sight_description_architectureboattour">Over 40 Chicago landmarks on a 75-minute architecture boat tour along the three branches of the Chicago river covering how Chicago\'s buildings, architecture and engineering made the city famous.</string>
 </resources>
