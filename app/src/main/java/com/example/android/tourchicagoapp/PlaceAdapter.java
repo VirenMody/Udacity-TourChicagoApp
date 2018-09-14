@@ -1,8 +1,6 @@
 package com.example.android.tourchicagoapp;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -37,7 +35,7 @@ public class PlaceAdapter extends ArrayAdapter {
         TextView placeNameTextView = (TextView) listItemView.findViewById(R.id.place_name);
         placeNameTextView.setText(currentPlace.getPlaceNameId());
 
-        TextView placeDescriptionTextView = (TextView) listItemView.findViewById(R.id.place_description);
+        TextView placeDescriptionTextView = (TextView) listItemView.findViewById(R.id.place_address);
         placeDescriptionTextView.setText(currentPlace.getPlaceDescriptionId());
 
         ImageView placeImageView = (ImageView) listItemView.findViewById(R.id.place_image);

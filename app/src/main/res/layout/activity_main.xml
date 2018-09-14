@@ -5,14 +5,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@color/colorPrimaryDark"
     android:orientation="vertical"
     tools:context="com.example.android.tourchicagoapp.MainActivity">
 
     <android.support.design.widget.TabLayout
         android:id="@+id/tabs"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryLight"/>
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"

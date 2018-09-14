@@ -4,25 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="@dimen/list_item_height"
-    android:background="@color/colorPrimaryDark"
-    android:minHeight="@dimen/list_item_height">
+    android:minHeight="@dimen/list_item_height" >
 
     <ImageView
         android:id="@+id/place_image"
         android:layout_width="@dimen/list_item_height"
-        android:layout_height="@dimen/list_item_height" />
+        android:layout_height="@dimen/list_item_height"
+        android:scaleType="centerCrop"/>
 
     <RelativeLayout
         android:id="@+id/text_container"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/list_item_height"
-        android:orientation="vertical"
+        android:layout_toRightOf="@id/place_image"
+        android:layout_toEndOf="@+id/place_image"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@id/place_image"
-        android:layout_toEndOf="@+id/place_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:orientation="vertical"
         android:paddingLeft="@dimen/spacing_medium"
         android:paddingRight="@dimen/spacing_medium"
         android:paddingStart="@dimen/spacing_medium">
@@ -30,24 +30,23 @@
         <TextView
             android:id="@+id/place_name"
             android:layout_width="match_parent"
-            android:layout_height="44dp"
-            android:layout_weight="1"
+            android:layout_height="@dimen/half_list_item_height"
             android:gravity="bottom"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@android:color/white"
             android:textStyle="bold"
-            tools:text="lutti" />
+            tools:text="Place Name" />
 
         <TextView
-            android:id="@+id/place_description"
+            android:id="@+id/place_address"
             android:layout_below="@id/place_name"
             android:layout_width="match_parent"
-            android:layout_height="44dp"
-            android:layout_weight="1"
+            android:layout_height="@dimen/half_list_item_height"
             android:gravity="top"
-            android:textAppearance="?android:textAppearanceMedium"
+            android:textAppearance="?android:textAppearanceSmall"
             android:textColor="@android:color/white"
-            tools:text="one" />
+            tools:text="Place Address" />
+
     </RelativeLayout>
 
 </RelativeLayout>
